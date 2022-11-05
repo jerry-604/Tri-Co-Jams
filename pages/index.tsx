@@ -19,7 +19,6 @@ export default function Home() {
 
       <main className={styles.main}>
         <Header/>
-
         <Container>
             <Row height="50vh">
                 <Col height="50vh" className="mt-4 d-flex justify-content-end" xs={2} s={2} md={4} lg={5} >

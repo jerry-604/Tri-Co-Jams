@@ -6,7 +6,7 @@
 
 function InputForm() {
   return (
-    <Row xs={1} md={3} className="g-4">
+    <Row xs={1} md={2} lg= {3} className="justify-content-center g-4">
       <CardElement title= "Session Name" holder= "Enter Session Name" format= 'text' />
       <CardElement title= "Date" holder= "" format= 'date' />
       <CardElement title= "Genre" holder= "Enter Music Genre" format= 'text' />
@@ -15,7 +15,7 @@ function InputForm() {
       <CardElement title= "Description" holder= "Describe Session" textar={true} />
       <CardElement title= "Host Contact" holder= "Enter Your Email" format= 'email' />
       <CardElement title= "Location" holder= "Describe Location" textar={true} />
-      <CardElement title= "Roles" select={true} options={["Vocals","Guitar", "Piano", "Drums"]} />
+      <CardElement title= "Roles" select={true} options={["Vocals","Guitar", "Piano", "Drums", "Any"]} />
     </Row>
   );
 }
