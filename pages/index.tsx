@@ -18,10 +18,6 @@ export default function Home() {
 
       <main className={styles.main}>
         <Header/>
-<<<<<<< HEAD
-        // <InputForm/>
-=======
-
         <Container>
             <Row width="100%">
                 <Col className="mt-4 d-flex justify-content-end" xs={4} >
@@ -37,12 +33,13 @@ export default function Home() {
                 </Col>
             </Row>
             <Row>
-                <Col>1 of 3</Col>
-                <Col>2 of 3</Col>
-                <Col>3 of 3</Col>
+              <Col className="justify-content-center m-0">
+                <InputForm/>
+              </Col>
             </Row>
         </Container>
->>>>>>> 2a3ef764abe02ecfe62a17cbc24adfd28e22c548
+
+
       </main>
     </div>
   )
