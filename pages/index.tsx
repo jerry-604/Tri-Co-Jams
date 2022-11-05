@@ -35,15 +35,15 @@ export default function Home() {
             </Row>
             <Row height="50vh" className="mt-4 justify-content-center">
                 <Col height="50vh" className="mt-4 justify-content-center">
-                <style type="text/css">
-                    {`
-                    .btn-xxl {
-                        font-size: 3rem !important;
-                        width: 100%;
-                        height: 10rem;
-                    }
-                    `}
-                </style>
+                    <style type="text/css">
+                        {`
+                        .btn-xxl {
+                            font-size: 3rem !important;
+                            width: 100%;
+                            height: 10rem;
+                        }
+                        `}
+                    </style>
                     <Button className="justify-content-center btn-xxl" size="xxl" variant="primary">Host</Button>
                 </Col>
                 <Col height="50vh" className="mt-4 justify-content-center">

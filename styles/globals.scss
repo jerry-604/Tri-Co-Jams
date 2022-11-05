@@ -9,10 +9,31 @@ $theme-colors: (
 @use "sass:map";
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
-.btn-xxl {
-    font-size: 3rem !important;
-    width: 100%;
-    height: 10rem;
+table {
+    border-collapse: separate !important;
+    border-spacing: 0;
+}
+
+thead {
+    background-color: #870F0A;
+    border-collapse: separate !important;
+    border-radius: 4px;
+}
+
+th {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: map.get($theme-colors, "secondary");
+}
+
+tr {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+td {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 @import "~bootstrap/scss/bootstrap";
