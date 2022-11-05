@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from './components/header.tsx'
 import styles from '../styles/Home.module.scss'
+import InputForm from './components/input-card'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <Header/>
+        <InputForm/>
       </main>
     </div>
   )
