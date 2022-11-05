@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.scss'
 import Head from 'next/head'
 import { Button } from "react-bootstrap";
 import { getDatabase, ref, set, get } from "firebase/database";
+import Link from "next/link";
 
 export default function Form() {
     const columns = React.useMemo(
@@ -73,9 +74,11 @@ export default function Form() {
   
         <main className={styles.main}>
             <Header/>
-            <Button className="m-4">
-                Back
-            </Button>
+            <Link href='/#home'>
+                <Button className="m-4">
+                    Back
+                </Button>
+            </Link>
             <BasicTable columns={columns} data={data}/>
         </main>
       </div>

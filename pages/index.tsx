@@ -36,11 +36,6 @@ export default function Home() {
                     </h4>
                 </Col>
             </Row>
-            <Row className="mt-4 justify-content-center">
-                <Col className="mt-4 justify-content-center">
-                <Link href="/host">
-                  <Button className="justify-content-center btn-xxl" variant="primary" >Host</Button>
-                </Link>
             <Row height="50vh" className="mt-4 justify-content-center">
                 <Col height="50vh" className="mt-4 justify-content-center">
                     <style type="text/css">
@@ -52,10 +47,10 @@ export default function Home() {
                         }
                         `}
                     </style>
-                    <Button className="justify-content-center btn-xxl" size="xxl" variant="primary">Host</Button>
+                    <Link href='/host'><Button className="justify-content-center btn-xxl" size="xxl" variant="primary">Host</Button></Link>
                 </Col>
                 <Col height="50vh" className="mt-4 justify-content-center">
-                    <Button className="justify-content-center btn-xxl" variant="primary">Join</Button>
+                    <Link href='/join'><Button className="justify-content-center btn-xxl" variant="primary">Join</Button></Link>
                 </Col>
             </Row>
         </Container>
