@@ -7,6 +7,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import styles from '../styles/Home.module.scss'
 import InputForm from './components/input-card'
+import Host from './host';
+import Link from 'next/link';
+
 
 export default function Home() {
   return (
@@ -33,6 +36,11 @@ export default function Home() {
                     </h4>
                 </Col>
             </Row>
+            <Row className="mt-4 justify-content-center">
+                <Col className="mt-4 justify-content-center">
+                <Link href="/host">
+                  <Button className="justify-content-center btn-xxl" variant="primary" >Host</Button>
+                </Link>
             <Row height="50vh" className="mt-4 justify-content-center">
                 <Col height="50vh" className="mt-4 justify-content-center">
                     <style type="text/css">
