@@ -16,6 +16,7 @@ function InputForm() {
       <CardElement title= "Host Contact" holder= "Enter Your Email" format= 'email' />
       <CardElement title= "Location" holder= "Describe Location" textar={true} />
       <CardElement title= "Roles" select={true} options={["Vocals","Guitar", "Piano", "Drums", "Any"]} />
+      
     </Row>
   );
 }
