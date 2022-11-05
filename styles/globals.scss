@@ -1,8 +1,8 @@
 $theme-colors: (
     "primary": #870F0A,
+    "secondary": #ffffff,
     "page-bg": #d1d1d1,
     "card-bg": #f1f1f1,
-    "text": #ffffff,
     "accent": #870F0A
 );
 
@@ -16,7 +16,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Itim', cursive;
-  color: map.get($theme-colors, "text");
+  color: map.get($theme-colors, "text-primary");
 }
 
 a {
